@@ -1,0 +1,33 @@
+{
+  "name": "uniswap-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@ethersproject/address": "^5.0.5",
+    "@ethersproject/contracts": "^5.0.5",
+    "@ethersproject/networks": "^5.0.4",
+    "@ethersproject/providers": "^5.0.14",
+    "@ethersproject/solidity": "^5.0.5",
+    "@uniswap/sdk": "^3.0.3",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/plugin-proposal-export-default-from": "^7.12.1",
+    "@babel/plugin-transform-async-to-generator": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "babel-cli": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^8.2.1",
+    "webpack": "^5.4.0"
+  }
+}
